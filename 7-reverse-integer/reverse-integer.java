@@ -19,17 +19,5 @@ class Solution {
         }
         
         return reverse;
-        // int lowerBound = (-1)*(int) Math.pow(2,31);  // Equivalent to -2147483648
-        // int upperBound = (int) Math.pow(2, 31) - 1;  // Equivalent to 2147483647
-
-        // Check if x is within the range
-        // if (x <= lowerBound && x >= upperBound) 
-        // {
-        //     return 0;
-        // }
-        // else
-        // {
-        //     return reverse;
-        // }
     }
 }
